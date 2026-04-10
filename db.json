@@ -13,27 +13,6 @@
       "email": "ana@ecomarket.com",
       "password": "123456",
       "rol": "productor"
-    },
-    {
-      "id": "3",
-      "nombre": "Carlos Agricultor",
-      "email": "carlos@ecomarket.com",
-      "password": "123456",
-      "rol": "productor"
-    },
-    {
-      "id": "4",
-      "nombre": "Finca La Vega",
-      "email": "finca@ecomarket.com",
-      "password": "123456",
-      "rol": "productor"
-    },
-    {
-      "id": "5",
-      "nombre": "Cosechas del Sol",
-      "email": "sol@ecomarket.com",
-      "password": "123456",
-      "rol": "productor"
     }
   ],
   "productos": [
@@ -44,7 +23,7 @@
       "origin": "Gran Canaria",
       "price": 4,
       "unit": "€/kg",
-      "image": "../Imagenes/tomate.png",
+      "image": "Imagenes/tomate.png",
       "id": "M2p1L780N8I",
       "quantity": 100
     },
@@ -92,7 +71,7 @@
       "price": 1.50,
       "unit": "€/pack",
       "description": "Pack de 1kg de zanahorias dulces de huerta tradicional.",
-      "image": "",
+      "image": "Imagenes/zanahoria.png",
       "id": "Z1a2N3a4H5o6",
       "quantity": 120
     },
@@ -104,7 +83,7 @@
       "price": 6.50,
       "unit": "€/unidad",
       "description": "Tarro de 500g de miel artesanal sin azúcares añadidos.",
-      "image": "",
+      "image": "Imagenes/miel.png",
       "id": "M1i2E3l4P5u6",
       "quantity": 40
     },
@@ -116,7 +95,7 @@
       "price": 3.20,
       "unit": "€/pack",
       "description": "Docena de huevos de gallinas criadas al aire libre (Código 0).",
-      "image": "",
+      "image": "Imagenes/Huevos.png",
       "id": "H1u2E3v4o5S6",
       "quantity": 150
     },
@@ -128,7 +107,7 @@
       "price": 4.50,
       "unit": "€/kg",
       "description": "Fresas seleccionadas a mano, muy dulces y jugosas.",
-      "image": "",
+      "image": "Imagenes/fresas.png",
       "id": "F1r2E3s4a5S6",
       "quantity": 60
     },
@@ -140,7 +119,7 @@
       "price": 8.90,
       "unit": "€/l",
       "description": "Botella de 1L, extracción en frío de olivos centenarios.",
-      "image": "",
+      "image": "Imagenes/aceite.png",
       "id": "A1c2E3i4T5e6",
       "quantity": 90
     },
@@ -152,7 +131,7 @@
       "price": 5.50,
       "unit": "€/kg",
       "description": "Aguacates en su punto óptimo de maduración.",
-      "image": "",
+      "image": "Imagenes/aguacates.png",
       "id": "A1g2U3a4C5a6",
       "quantity": 110
     },
@@ -164,7 +143,7 @@
       "price": 1.10,
       "unit": "€/kg",
       "description": "Cebollas ecológicas, sabor inconfundible y fresco.",
-      "image": "",
+      "image": "Imagenes/cebollas.png",
       "id": "C1e2B3o4L5l6",
       "quantity": 300
     },
@@ -176,7 +155,7 @@
       "price": 2.10,
       "unit": "€/kg",
       "description": "Manzanas reinetas perfectas para repostería o consumo al natural.",
-      "image": "",
+      "image": "Imagenes/manzanas.png",
       "id": "M1a2N3z4A5n6",
       "quantity": 75
     }
