@@ -13,6 +13,27 @@
       "email": "ana@ecomarket.com",
       "password": "123456",
       "rol": "productor"
+    },
+    {
+      "id": "3",
+      "nombre": "Carlos Agricultor",
+      "email": "carlos@ecomarket.com",
+      "password": "123456",
+      "rol": "productor"
+    },
+    {
+      "id": "4",
+      "nombre": "Finca La Vega",
+      "email": "finca@ecomarket.com",
+      "password": "123456",
+      "rol": "productor"
+    },
+    {
+      "id": "5",
+      "nombre": "Cosechas del Sol",
+      "email": "sol@ecomarket.com",
+      "password": "123456",
+      "rol": "productor"
     }
   ],
   "productos": [
@@ -23,7 +44,7 @@
       "origin": "Gran Canaria",
       "price": 4,
       "unit": "€/kg",
-      "image": "Imagenes/tomate.png",
+      "image": "../Imagenes/tomate.png",
       "id": "M2p1L780N8I",
       "quantity": 100
     },
@@ -32,7 +53,7 @@
       "ownerName": "Ana Productora",
       "name": "Naranjas ecológicas",
       "origin": "Gran Canaria",
-      "price": 2.50,
+      "price": 2.5,
       "unit": "€/kg",
       "description": "Naranjas dulces recién cosechadas sin pesticidas.",
       "image": "Imagenes/naranja.png",
@@ -44,7 +65,7 @@
       "ownerName": "Ana Productora",
       "name": "Plátanos ecológicos",
       "origin": "Gran Canaria",
-      "price": 1.80,
+      "price": 1.8,
       "unit": "€/kg",
       "description": "Plátanos canarios de cultivo ecológico certificado.",
       "image": "Imagenes/platano.png",
@@ -54,24 +75,12 @@
     {
       "ownerId": "3",
       "ownerName": "Carlos Agricultor",
-      "name": "Lechuga romana",
-      "origin": "Galicia",
-      "price": 1.20,
-      "unit": "€/unidad",
-      "description": "Lechuga verde crujiente e hidratada, ideal para ensaladas.",
-      "image": "Imagenes/lechuga.png",
-      "id": "L1e2C3h4U5g6",
-      "quantity": 80
-    },
-    {
-      "ownerId": "3",
-      "ownerName": "Carlos Agricultor",
       "name": "Zanahorias orgánicas",
       "origin": "Galicia",
-      "price": 1.50,
+      "price": 1.5,
       "unit": "€/pack",
       "description": "Pack de 1kg de zanahorias dulces de huerta tradicional.",
-      "image": "Imagenes/zanahoria.png",
+      "image": "../Imagenes/zanahoria.png",
       "id": "Z1a2N3a4H5o6",
       "quantity": 120
     },
@@ -80,10 +89,10 @@
       "ownerName": "Carlos Agricultor",
       "name": "Miel pura de abeja",
       "origin": "Galicia",
-      "price": 6.50,
+      "price": 6.5,
       "unit": "€/unidad",
       "description": "Tarro de 500g de miel artesanal sin azúcares añadidos.",
-      "image": "Imagenes/miel.png",
+      "image": "../Imagenes/miel.png",
       "id": "M1i2E3l4P5u6",
       "quantity": 40
     },
@@ -92,10 +101,10 @@
       "ownerName": "Finca La Vega",
       "name": "Huevos camperos",
       "origin": "Fontanales",
-      "price": 3.20,
+      "price": 3.2,
       "unit": "€/pack",
       "description": "Docena de huevos de gallinas criadas al aire libre (Código 0).",
-      "image": "Imagenes/Huevos.png",
+      "image": "../Imagenes/Huevos.png",
       "id": "H1u2E3v4o5S6",
       "quantity": 150
     },
@@ -104,10 +113,10 @@
       "ownerName": "Finca La Vega",
       "name": "Fresas de temporada",
       "origin": "Fontanales",
-      "price": 4.50,
+      "price": 4.5,
       "unit": "€/kg",
       "description": "Fresas seleccionadas a mano, muy dulces y jugosas.",
-      "image": "Imagenes/fresas.png",
+      "image": "../Imagenes/fresas.png",
       "id": "F1r2E3s4a5S6",
       "quantity": 60
     },
@@ -116,10 +125,10 @@
       "ownerName": "Finca La Vega",
       "name": "Aceite de Oliva Virgen Extra",
       "origin": "Fontanales",
-      "price": 8.90,
+      "price": 8.9,
       "unit": "€/l",
       "description": "Botella de 1L, extracción en frío de olivos centenarios.",
-      "image": "Imagenes/aceite.png",
+      "image": "../Imagenes/aceite.png",
       "id": "A1c2E3i4T5e6",
       "quantity": 90
     },
@@ -128,10 +137,10 @@
       "ownerName": "Cosechas del Sol",
       "name": "Aguacate Hass eco",
       "origin": "Madrid",
-      "price": 5.50,
+      "price": 5.5,
       "unit": "€/kg",
-      "description": "Aguacates ecológicos de alta calidad.",
-      "image": "Imagenes/aguacates.png",
+      "description": "Aguacates en su punto óptimo de maduración.",
+      "image": "../Imagenes/aguacates.png",
       "id": "A1g2U3a4C5a6",
       "quantity": 110
     },
@@ -140,10 +149,10 @@
       "ownerName": "Cosechas del Sol",
       "name": "Cebollas de cultivo local",
       "origin": "Madrid",
-      "price": 1.10,
+      "price": 1.1,
       "unit": "€/kg",
       "description": "Cebollas ecológicas, sabor inconfundible y fresco.",
-      "image": "Imagenes/cebollas.png",
+      "image": "../Imagenes/cebollas.png",
       "id": "C1e2B3o4L5l6",
       "quantity": 300
     },
@@ -152,10 +161,10 @@
       "ownerName": "Cosechas del Sol",
       "name": "Manzanas Reinetas",
       "origin": "Madrid",
-      "price": 2.10,
+      "price": 2.1,
       "unit": "€/kg",
       "description": "Manzanas reinetas perfectas para repostería o consumo al natural.",
-      "image": "Imagenes/manzanas.png",
+      "image": "../Imagenes/manzanas.png",
       "id": "M1a2N3z4A5n6",
       "quantity": 75
     }
